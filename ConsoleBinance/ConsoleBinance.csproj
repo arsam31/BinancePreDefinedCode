@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F09BC404-258D-4199-BDC8-75C15B2C1281}</ProjectGuid>
+    <ProjectGuid>{CA452C4D-1D6B-44F3-8726-279C21ED7A36}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BinanceConsole</RootNamespace>
-    <AssemblyName>BinanceConsole</AssemblyName>
+    <RootNamespace>ConsoleBinance</RootNamespace>
+    <AssemblyName>ConsoleBinance</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,12 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="D:\TFSNEW\Quaestor.Bot.Backend\Quaestor.Bot\src\Binance.Net\Binance.Net.csproj">
-      <Project>{576D7E03-0248-412E-9AA5-36DC12F23C43}</Project>
-      <Name>Binance.Net</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
